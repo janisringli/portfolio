@@ -15,7 +15,7 @@ jobs:
           local-dir: ./src/
           server-dir: ./ja.nisringli.ch/
           state-name: .htsync
-          server: sl1971.web.hostpoint.ch
+          server: sl203.web.hostpoint.ch
           port: 21
           username: git@nisringli.ch
           password: ${{ secrets.FTP_PASSWORD }}
