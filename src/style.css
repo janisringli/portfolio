@@ -4,6 +4,7 @@
   color: #000000;
 }
 .container {
+  padding-top: 0px;
   width: 100%;
   height: auto;
   display: flex;
@@ -18,4 +19,53 @@
 .traily {
   color: green;
   text-decoration: none;
+}
+@media only screen and (max-width: 900px) {
+  * {
+    font-family: monospace;
+    background-color: #fff8f7;
+    color: #000000;
+  }
+  .container {
+    padding-top: 150px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .under-construction {
+    font-size: 20px;
+    text-align: center;
+    width: 500px;
+  }
+  .traily {
+    color: red;
+    text-decoration: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  * {
+    font-family: monospace;
+    background-color: #fff8f7;
+    color: #000000;
+  }
+  .container {
+    padding-top: 150px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .under-construction {
+    font-size: 16px;
+    text-align: center;
+    width: 300px;
+  }
+  .traily {
+    color: red;
+    text-decoration: none;
+  }
 }
