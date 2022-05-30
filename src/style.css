@@ -250,35 +250,33 @@
 /*  ----------------------- Profile Area ------------------------- */
 .profileArea__wrapper {
   background-color: #252531;
-  height: 175px;
-  display: flex;
-  flex-direction: column;
+  width: 415px;
+  height: 289px;
   align-items: center;
   text-align: center;
-  padding-bottom: 30px;
-  padding-top: 30px;
-  padding-left: 30px;
-  padding-right: 30px;
 }
 .profileArea__portrait {
-  width: 90px;
-  height: auto;
+  width: 150px;
+  height: 150px;
   border-radius: 100%;
-  margin-bottom: 15px;
+  padding-top: 25px;
+  padding-bottom: 9px;
 }
 .profileArea__name {
   color: #ffffff;
-  padding-bottom: 10px;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 600;
   background-color: transparent;
+  line-height: 27px;
+  padding-bottom: 9px;
 }
 .profileArea__apprentice {
   color: #8c8c8e;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 400;
   letter-spacing: 0.25px;
   background-color: transparent;
+  line-height: 22.5px;
 }
 @media only screen and (max-width: 900px) {
   * {
