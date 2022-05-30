@@ -12,7 +12,6 @@
   justify-content: center;
 } */
 .selfInformation__container {
-  background-color: #20202a;
   width: 415px;
   height: 791px;
 }
@@ -21,7 +20,8 @@
 .sidebar__container {
   display: flex;
   flex-direction: column;
-  width: 230px;
+  width: 415px;
+  background-color: #20202a;
 }
 /* ----------------------- Coding Skills ------------------------- */
 .codingskills__wrapper {
