@@ -16,19 +16,138 @@
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/8c97a44473.js"
+      crossorigin="anonymous"
+    ></script>
+
     <title>Janis Ringli</title>
   </head>
   <body>
     <div class="container">
-      <div class="under-construction">
-        <h1>Hello friend</h1>
-        <h2>This website is currently in development.</h2>
-        <h3>
-          Enjoy your stay and in the meantime check out my Team at
-          <a href="https://traily.ch" class="traily" style="color: green"
-            >Traily</a
-          >
-        </h3>
+      <div class="sidebar__container">
+        <!-- -------------------- Profile Area --------------------- -->
+        <div class="profileArea__wrapper">
+          <img
+            class="profileArea__portrait"
+            src="./assets/images/portrait.jpg"
+            alt="Portrait"
+          />
+          <div class="profileArea__name">Janis Ringli</div>
+          <div class="profileArea__apprentice">
+            Software Developer
+            <br />
+            Apprentice
+          </div>
+        </div>
+        <!-- -------------------- Personal Info --------------------- -->
+        <div class="PersonalInfo__wrapper">
+          <div class="wrapper__country">
+            <div class="country__nationality">Nationality:</div>
+            <div class="country__country">Switzerland</div>
+          </div>
+          <div class="wrapper__city">
+            <div class="city__live">City:</div>
+            <div class="city__city">Bülach</div>
+          </div>
+          <div class="wrapper__age">
+            <div class="age__number">Age:</div>
+            <div id="age" class="age__age"></div>
+            <script src="./age.js"></script>
+          </div>
+        </div>
+        <!-- -------------------- Language --------------------- -->
+        <div class="language__wrapper">
+          <div class="wrapper__title">Languages</div>
+          <div class="wrapper__content">Your Add Here</div>
+        </div>
+        <!-- -------------------- Coding Skills --------------------- -->
+        <div class="codingskills__wrapper">
+          <div class="wrapper__title">Coding</div>
+        </div>
+        <!-- --------------------- Knowledge --------------------- -->
+        <div class="knowledge__wrapper">
+          <div class="knowledge__title">Knowledge</div>
+          <div class="knowledge__content">
+            <div class="knowledge__item">
+              <img
+                class="icon"
+                src="./assets/svg/check-solid.svg"
+                alt="check"
+              />
+              <div>Frontend-Development</div>
+            </div>
+            <div class="knowledge__item">
+              <img
+                class="icon"
+                src="./assets/svg/check-solid.svg"
+                alt="check"
+              />
+              <div>Github Experience</div>
+            </div>
+            <div class="knowledge__item">
+              <img
+                class="icon"
+                src="./assets/svg/check-solid.svg"
+                alt="check"
+              />
+              <div>Design</div>
+            </div>
+            <div class="knowledge__item">
+              <img
+                class="icon"
+                src="./assets/svg/check-solid.svg"
+                alt="check"
+              />
+              <div>Linux</div>
+            </div>
+            <div class="knowledge__item">
+              <img
+                class="icon"
+                src="./assets/svg/check-solid.svg"
+                alt="check"
+              />
+              <div>Windows 10</div>
+            </div>
+            <div class="knowledge__item">
+              <img
+                class="icon"
+                src="./assets/svg/check-solid.svg"
+                alt="check"
+              />
+              <div>Data Modeling</div>
+            </div>
+          </div>
+        </div>
+        <!-- -------------------- Footer --------------------- -->
+        <div class="footer__wrapper">
+          <div class="footer__content">
+            <a href="https://www.linkedin.com/in/janis-ri/" target="_blank">
+              <i class="fab fa-linkedin" style="background: #252531"></i>
+            </a>
+            <a href="https://github.com/1Janis6" target="_blank">
+              <i class="fab fa-github" style="background: #252531"></i>
+            </a>
+            <a href="https://www.instagram.com/janis_zh_04/" target="_blank">
+              <i class="fab fa-instagram" style="background: #252531"></i>
+            </a>
+            <a
+              href="https://stackoverflow.com/users/17784312/0janis4"
+              target="_blank"
+            >
+              <i class="fab fa-stack-overflow" style="background: #252531"></i>
+            </a>
+            <a href="mailto:janis.ringli@swisscom.com">
+              <i class="far fa-paper-plane" style="background: #252531"></i>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   </body>

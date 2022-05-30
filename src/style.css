@@ -1,24 +1,284 @@
 * {
-  font-family: monospace;
-  background-color: #fff8f7;
-  color: #000000;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
 }
-.container {
+/* .container {
   padding-top: 0px;
   width: 100%;
   height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
+} */
+/* ----------------------- Sidebar ------------------------- */
+
+.sidebar__container {
+  display: flex;
+  flex-direction: column;
+  width: 230px;
+  background-color: #20202a;
 }
-.under-construction {
-  font-size: 32px;
-  text-align: center;
-  width: 1000px;
+/* ----------------------- Coding Skills ------------------------- */
+.codingskills__wrapper {
+  border-bottom: solid 1px #404047;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  height: 150px;
 }
-.traily {
-  color: green;
+.wrapper__title {
+  color: #ffffff;
+  font-size: 14px;
+  padding-bottom: 15px;
+}
+/* ----------------------- Download CV ------------------------- */
+.downloadcv__wrapper {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.wrapper__link {
+  font-size: 12px;
+  color: #8c8c8e;
+  font-weight: 600;
   text-decoration: none;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.wrapper__link:hover {
+  font-size: 12px;
+  color: #ffffff;
+  font-weight: 600;
+  transition: 0.4s ease-in-out;
+}
+.wrapper__link:not(hover) {
+  font-size: 12px;
+  color: #8c8c8e;
+  font-weight: 600;
+  transition: 0.4s ease-in-out;
+}
+/* ----------------------- Sidebar Footer ------------------------- */
+.footer__wrapper {
+  height: 50px;
+  background-color: #252531;
+}
+.footer__content {
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background-color: #252531;
+  margin-top: 15px;
+  overflow: hidden;
+  gap: 15px;
+}
+.soicial__icons {
+  width: 15px;
+  height: 15px;
+  background-color: #252531;
+  color: #8c8c8e;
+}
+.fa-linkedin:before {
+  content: "\f08c";
+  color: #8c8c8e;
+  background-color: #252531;
+}
+.fa-github:before {
+  content: "\f09b";
+  color: #8c8c8e;
+}
+.fa-github:before {
+  content: "\f09b";
+  color: #8c8c8e;
+}
+.fa-instagram:before {
+  content: "\f16d";
+  color: #8c8c8e;
+}
+.fa-stack-overflow:before {
+  content: "\f16c";
+  color: #8c8c8e;
+}
+.fa-paper-plane:before {
+  content: "\f1d8";
+  color: #8c8c8e;
+}
+.wrapper__content a {
+  background-color: #252531;
+}
+/* ----------------------- Introduction ------------------------- */
+.introduction__wrapper {
+  position: relative;
+  z-index: 1;
+  background-image: url(../../images/backgrounds/IntroductionBackground.jpg);
+  background-repeat: no-repeat;
+  width: 1560px;
+  height: 334px;
+  margin-left: 30px;
+  margin-top: 60px;
+}
+.wrapper__overlay {
+  background-color: rgba(43, 43, 53, 0.75);
+  color: #ffffff;
+  height: 100%;
+  font-size: 52px;
+}
+.wrapper__content {
+  padding: 60px;
+}
+.intro {
+  padding-bottom: 28px;
+}
+.code {
+  font-size: 16px;
+  font-family: monospace;
+  letter-spacing: 0.5;
+}
+.codetag {
+  color: #ffc107;
+}
+/* ----------------------- Knowledge ------------------------- */
+.knowledge__wrapper {
+  padding-bottom: 15px;
+  padding-top: 30px;
+  margin-left: 30px;
+  margin-right: 20px;
+  border-bottom: solid 1px #404047;
+}
+.knowledge__title {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+}
+.knowledge__content {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.icon {
+  width: 15px;
+  height: auto;
+}
+.knowledge__item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 7px;
+  color: #87878a;
+  font-size: 13px;
+}
+/* ----------------------- Language ------------------------- */
+.language__wrapper {
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #404047;
+}
+.wrapper__title {
+  color: #ffffff;
+  font-size: 13px;
+}
+.wrapper__content {
+  height: 140px;
+}
+/* ----------------------- Personal Information ------------------------- */
+.PersonalInfo__wrapper {
+  background-color: transparent;
+  padding-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  border-bottom: solid 1px #404047;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+.wrapper__country {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.country__nationality {
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 400;
+}
+.country__country {
+  color: #8c8c8e;
+  font-size: 13px;
+  font-weight: 400;
+}
+.wrapper__city {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.city__live {
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 400;
+}
+.city__city {
+  color: #8c8c8e;
+  font-size: 13px;
+  font-weight: 400;
+}
+.wrapper__age {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.age__number {
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 400;
+}
+.age__age {
+  color: #8c8c8e;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+/*  ----------------------- Profile Area ------------------------- */
+.profileArea__wrapper {
+  background-color: #252531;
+  height: 175px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.profileArea__portrait {
+  width: 90px;
+  height: auto;
+  border-radius: 100%;
+  margin-bottom: 15px;
+}
+.profileArea__name {
+  color: #ffffff;
+  padding-bottom: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: transparent;
+}
+.profileArea__apprentice {
+  color: #8c8c8e;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0.25px;
+  background-color: transparent;
 }
 @media only screen and (max-width: 900px) {
   * {
@@ -44,7 +304,6 @@
     text-decoration: none;
   }
 }
-
 @media only screen and (max-width: 600px) {
   * {
     font-family: monospace;
