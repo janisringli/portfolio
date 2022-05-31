@@ -67,7 +67,24 @@
   line-height: 27px;
 }
 .project__image {
+  position: relative;
+  object-fit: cover;
   height: 347px;
+  height: 347px;
+  width: 404px;
+  border-radius: 24px 24px 0px 0px;
+  top: 0;
+  left: 0;
+}
+.traily {
+  position: absolute;
+  top: 111px;
+  left: 134px;
+}
+.test {
+  position: relative;
+  top: 0;
+  left: 0;
 }
 .project__info {
   display: flex;
