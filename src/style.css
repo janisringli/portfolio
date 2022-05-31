@@ -3,14 +3,13 @@
   padding: 0;
   font-family: "Poppins", sans-serif;
 }
-/* .container {
+.container {
   padding-top: 0px;
   width: 100%;
   height: auto;
   display: flex;
-  align-items: center;
-  justify-content: center;
-} */
+  flex-direction: row;
+}
 .selfInformation__container {
   width: 415px;
   height: 791px;
@@ -111,20 +110,17 @@
 .introduction__wrapper {
   position: relative;
   z-index: 1;
-  background-image: url(../../images/backgrounds/IntroductionBackground.jpg);
+  background-image: url(./assets/images/IntroductionBackground.jpg);
   background-repeat: no-repeat;
-  width: 1560px;
-  height: 334px;
-  margin-left: 30px;
-  margin-top: 60px;
+  width: 1455px;
 }
-.wrapper__overlay {
+.introduction__overlay {
   background-color: rgba(43, 43, 53, 0.75);
   color: #ffffff;
   height: 100%;
   font-size: 52px;
 }
-.wrapper__content {
+.introduction__content {
   padding: 60px;
 }
 .intro {
@@ -248,7 +244,7 @@
 }
 .profileArea__portrait {
   width: 150px;
-  height: 150px;
+  height: auto;
   border-radius: 50%;
   padding-top: 25px;
   padding-bottom: 9px;
@@ -269,28 +265,16 @@
   background-color: transparent;
   line-height: 22.5px;
 }
-@media only screen and (max-width: 900px) {
+.main__container {
+  width: 1505px;
+  padding: 25px;
+  background-color: #1e1e28;
+}
+/* @media only screen and (max-width: 900px) {
   * {
     font-family: monospace;
     background-color: #fff8f7;
     color: #000000;
-  }
-  .container {
-    padding-top: 150px;
-    width: 100%;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .under-construction {
-    font-size: 20px;
-    text-align: center;
-    width: 500px;
-  }
-  .traily {
-    color: red;
-    text-decoration: none;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -316,4 +300,4 @@
     color: red;
     text-decoration: none;
   }
-}
+} */
