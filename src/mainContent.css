@@ -21,6 +21,7 @@
   font-size: 18px;
   letter-spacing: 0.5px;
   width: 997px;
+  font-weight: 300;
 }
 
 .projects__container {
@@ -36,7 +37,7 @@
 }
 .singleLine {
   border: #ffc107 1px solid;
-  height: 0.1px;
+  height: 0px;
   width: 550px;
 }
 .apprentice__divider {
@@ -104,14 +105,6 @@
   gap: 43px;
   padding-left: 78px;
   align-items: center;
-  padding-bottom: 79px;
-}
-.project__row2 {
-  display: flex;
-  flex-direction: row;
-  gap: 43px;
-  align-items: center;
-  padding-left: 285px;
   padding-bottom: 79px;
 }
 .critics__title {

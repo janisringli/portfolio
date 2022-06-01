@@ -22,6 +22,8 @@
   width: 415px;
   background-color: #20202a;
   position: fixed;
+  height: 100vh;
+  z-index: 10;
 }
 /* ----------------------- Coding Skills ------------------------- */
 .codingskills__wrapper {
@@ -136,33 +138,7 @@
   color: #ffc107;
 }
 /* ----------------------- Knowledge ------------------------- */
-.knowledge__wrapper {
-  padding-bottom: 15px;
-  margin-left: 25px;
-  margin-right: 20px;
-  padding-top: 25px;
-  border-top: solid 1px #404047;
-  border-bottom: solid 1px #404047;
-  height: 118px;
-}
-.knowledge__content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.icon {
-  width: 15px;
-  height: auto;
-}
-.knowledge__item {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 9px;
-  color: #87878a;
-  font-size: 13px;
-  line-height: 19.5px;
-}
+
 /* ----------------------- Language ------------------------- */
 .language__wrapper {
   margin-left: 25px;
