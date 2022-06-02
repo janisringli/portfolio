@@ -61,6 +61,37 @@
   display: flex;
   flex-direction: column;
 }
+.project__card:hover > .project__image {
+  animation: infocardUp 1s forwards;
+}
+@keyframes infocardUp {
+  from {
+    height: 347px;
+  }
+  to {
+    height: 0px;
+  }
+}
+.project__card:not(:hover) > .project__image {
+  animation: infocardDown 1s forwards;
+}
+@keyframes infocardDown {
+  from {
+    height: 0px;
+  }
+  to {
+    height: 347px;
+  }
+}
+.project__card:not(:hover) > .project__image {
+  transition: 2s;
+  height: 347px;
+}
+.project__card:hover::after {
+  animation: infocardUp 1s forwards;
+  animation-direction: reverse;
+}
+
 .project__company {
   padding-top: 32px;
   color: #ffffff;
@@ -76,13 +107,14 @@
   border-radius: 24px 24px 0px 0px;
   top: 0;
   left: 0;
+  transition: 2s ease-in;
 }
 .traily {
   position: absolute;
   top: 111px;
   left: 134px;
 }
-.test {
+.trailyLogo {
   position: relative;
   top: 0;
   left: 0;
@@ -107,40 +139,43 @@
   align-items: center;
   padding-bottom: 79px;
 }
-.critics__title {
+.feedback__title {
   border-left: 2px solid #ffc107;
   color: #ffffff;
   padding-left: 13px;
   font-size: 24px;
   line-height: 36px;
 }
-.critics__card {
+.feedback__card {
   position: relative;
   background-color: #252531;
   width: 549px;
   height: 253px;
   padding-left: 30px;
   padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
-.critics__text {
+.feedback__text {
   width: 424px;
   font-size: 16px;
   color: #8c8c8e;
   line-height: 24px;
 }
-.critics__name {
+.feedback__name {
   color: #ffffff;
   font-size: 18px;
   line-height: 27px;
 }
-.critics__job-title {
+.feedback__job-title {
   color: #8c8c8e;
   font-style: italic;
   font-size: 12px;
   line-height: 18px;
   padding-bottom: 10px;
 }
-.critics__portrait {
+.feedback__portrait {
   position: absolute;
   top: -19px;
   right: 30px;
@@ -148,15 +183,16 @@
   width: 65px;
   border-radius: 50%;
 }
-.critics__card {
-  display: flex;
-  flex-direction: column;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
-.critics__slider {
+.feedback__slider {
+  border: red 1px solid;
+
   display: flex;
   flex-direction: row;
   gap: 37px;
   padding-top: 46px;
   padding-left: 47px;
+}
+.test {
+  overflow-y: hidden;
+  width: 100%;
 }
