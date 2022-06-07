@@ -9,19 +9,17 @@
 .main__container {
   padding-left: 440px;
 }
-.aboutMe__container {
-  /* KRITISCH: about-me__container */
+.about-me__container {
   padding-top: 42px;
 }
-.aboutMe__title {
-  /* KRITISCH: about-me__title */
+.about-me__title {
   border-left: 2px solid var(--primary-color);
   color: var(--text-color);
   padding-left: 13px;
   font-size: 24px;
   line-height: 36px;
 }
-.aboutMe__text {
+.about-me__text {
   padding-top: 15px;
   padding-left: 69px;
   color: var(--text-color);
@@ -42,8 +40,7 @@
   line-height: 36px;
   margin-bottom: 31px;
 }
-.singleLine {
-  /* KRITISCH: single-line */
+.single-line {
   border: var(--primary-color) 1px solid;
   height: 0px;
   width: 550px;

@@ -10,8 +10,7 @@
   display: flex;
   flex-direction: row;
 }
-.selfInformation__container {
-  /* KRITISCH: self-information__container */
+.self-information__container {
   width: 415px;
   height: 791px;
 }
@@ -28,23 +27,20 @@
 }
 /* ----------------------- Coding Skills ------------------------- */
 .codingskills__wrapper {
-  /* KRITISCH: coding-skills__wrapper */
   margin-left: 25px;
   margin-right: 25px;
   height: 268px;
   margin-top: 25px;
 }
 /* ----------------------- Download CV ------------------------- */
-.downloadcv__wrapper {
-  /* KRITISCH: download-cv__wrapper */
+.download-cv__wrapper {
   padding-top: 33px;
   padding-bottom: 32px;
   margin-left: 118px;
   margin-right: 118px;
 }
 
-.downloadcv__link {
-  /* KRITISCH: download-cv__link */
+.download-cv__link {
   font-size: 20px;
   line-height: 30px;
   color: #8c8c8e;
@@ -54,8 +50,7 @@
   transition: color 0.4s ease-in-out;
 }
 
-.downloadcv__link:hover {
-  /* KRITISCH: download-cv__link:hover */
+.download-cv__link:hover {
   color: #ffffff;
   transition: color 0.4s ease-in-out;
 }
@@ -114,8 +109,7 @@
 }
 /* ----------------------- Introduction ------------------------- */
 .introduction__wrapper {
-  background-image: url(./assets/images/IntroductionBackground.jpg);
-  /* KRITISCH: background-image: url(./assets/images/introduction-background.jpg); */
+  background-image: url(./assets/images/introduction-background.jpg);
   background-repeat: no-repeat;
   position: relative;
   width: 1455px;
@@ -138,8 +132,7 @@
   font-size: 16px;
   letter-spacing: 0.5;
 }
-.codetag {
-  /* KRITISCH: code-tag */
+.code-tag {
   color: #ffc107;
 }
 /* ----------------------- Knowledge ------------------------- */
@@ -158,8 +151,7 @@
   height: 89px;
 }
 /* ----------------------- Personal Information ------------------------- */
-.PersonalInfo__wrapper {
-  /* KRITISCH: personal-info__wrapper */
+.personal-info__wrapper {
   background-color: transparent;
   padding-bottom: 15px;
   display: flex;
@@ -218,24 +210,21 @@
 }
 
 /*  ----------------------- Profile Area ------------------------- */
-.profileArea__wrapper {
-  /* KRITISCH: profile-area__wrapper */
+.profile-area__wrapper {
   background-color: #252531;
   width: 415px;
   height: 289px;
   align-items: center;
   text-align: center;
 }
-.profileArea__portrait {
-  /* KRITISCH: profile-area__portrait */
+.profile-area__portrait {
   width: 150px;
   height: auto;
   border-radius: 50%;
   padding-top: 25px;
   padding-bottom: 9px;
 }
-.profileArea__name {
-  /* KRITISCH: profile-area__name */
+.profile-area__name {
   color: #ffffff;
   font-size: 18px;
   font-weight: 600;
@@ -243,8 +232,7 @@
   line-height: 27px;
   padding-bottom: 9px;
 }
-.profileArea__apprentice {
-  /* KRITISCH: profile-area__apprentice */
+.profile-area__apprentice {
   color: #8c8c8e;
   font-size: 15px;
   font-weight: 400;
