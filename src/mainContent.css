@@ -59,6 +59,7 @@
   line-height: 27px;
 }
 .project__card {
+  overflow: hidden;
   background-color: #252531;
   border-radius: 24px;
   display: flex;
@@ -82,11 +83,12 @@
   transition: height 0.5s ease;
 }
 .project__card:hover .project__text {
-  color: #fff;
-  transition: 1s ease-in;
+  pointer-events: none;
+  transition: 0.5s ease-out;
 }
 .project__text {
-  transition: 0.1s ease-in;
+  pointer-events: none;
+  transition: 0.5s ease-in;
   padding-top: 33px;
   color: transparent;
   font-size: 18px;
