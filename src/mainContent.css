@@ -158,8 +158,6 @@
   height: 253px;
   padding-left: 30px;
   padding-top: 30px;
-  display: flex;
-  flex-direction: column;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .feedback__text {
@@ -188,10 +186,23 @@
   width: 65px;
   border-radius: 50%;
 }
-.feedback__slider {
+.feedback__test {
   display: flex;
   flex-direction: row;
   gap: 37px;
+}
+.feedback__slider {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  border: 1px solid red;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  gap: 37px;
+  width: 1300px;
   padding-top: 46px;
-  padding-left: 47px;
+  margin-left: 31px;
+}
+.feedback__test {
+  display: flex;
 }
