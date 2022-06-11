@@ -27,10 +27,38 @@
 }
 /* ----------------------- Coding Skills ------------------------- */
 .codingskills__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
   margin-left: 25px;
   margin-right: 25px;
-  height: 268px;
   margin-top: 25px;
+}
+.skill__container {
+}
+.skill__name {
+  font-size: 13px;
+  color: #ffffff;
+  padding-bottom: 13px;
+  line-height: 19.5px;
+}
+.progress__line {
+  border: 1px var(--primary-color) solid;
+  pointer-events: none;
+}
+.progress__line:hover {
+}
+
+.progress__line:not(:hover) {
+  animation: progress 1s forwards;
+}
+@keyframes progress {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 300px;
+  }
 }
 /* ----------------------- Download CV ------------------------- */
 .download-cv__wrapper {
@@ -135,7 +163,6 @@
 .code-tag {
   color: #ffc107;
 }
-/* ----------------------- Knowledge ------------------------- */
 
 /* ----------------------- Language ------------------------- */
 .language__wrapper {
@@ -245,6 +272,7 @@
   padding: 25px;
   background-color: #1e1e28;
 }
+
 /* @media only screen and (max-width: 900px) {
   * {
     /* KRITISCH: Rather use variables instead of using *-selector.
