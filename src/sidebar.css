@@ -7,7 +7,6 @@
 .container {
   padding-top: 0px;
   width: 100%;
-  height: auto;
   display: flex;
   flex-direction: row;
 }
@@ -20,6 +19,7 @@
 /* ----------------------- Sidebar ------------------------- */
 
 .sidebar__container {
+  display: block;
   display: flex;
   flex-direction: column;
   width: 415px;
@@ -334,18 +334,11 @@
 }
 
 .main__container {
-  width: 1505px;
-  padding: 25px;
-  background-color: #1e1e28;
+  padding-left: 440px;
 }
 
-/* @media only screen and (max-width: 900px) {
-  * {
-    /* KRITISCH: Rather use variables instead of using *-selector.
-    font-family: monospace;
-    background-color: #fff8f7;
-    color: #000000;
+@media only screen and (max-width: 428px) {
+  .sidebar__container {
+    display: none;
   }
 }
-@media only screen and (max-width: 600px) {
- } */
